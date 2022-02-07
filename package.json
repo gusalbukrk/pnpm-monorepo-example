@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "type": "module",
+  "engines": {
+    "npm": "use `pnpm` instead",
+    "yarn": "use `pnpm` instead"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
