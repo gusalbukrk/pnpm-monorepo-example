@@ -1,10 +1,10 @@
 import { reduce } from 'lodash-es';
-import { add as addBase, mul as mulBase } from 'pnpmtestmath';
+import { add, mul } from 'pnpmtestmath';
 
-const add = (arr) => reduce(arr, (prev, curr) => addBase(prev, curr));
+const plus = (arr) => reduce(arr, (prev, curr) => add(prev, curr));
 
-const mul = (arr) => reduce(arr, (prev, curr) => mulBase(prev, curr));
+const times = (arr) => reduce(arr, (prev, curr) => mul(prev, curr));
 
-console.log(add([3, 5, 8, 12])); // 28
+console.log(plus([3, 5, 8, 12])); // 28
 
-console.log(mul([3, 5, 8, 12])); // 1440
+console.log(times([3, 5, 8, 12])); // 1440
