@@ -11,10 +11,10 @@ importers:
   packages/main:
     specifiers:
       lodash-es: ^4.17.21
-      math: workspace:*
+      pnpmtestmath: workspace:*
     dependencies:
       lodash-es: 4.17.21
-      math: link:../math
+      pnpmtestmath: link:../math
 
   packages/math:
     specifiers: {}

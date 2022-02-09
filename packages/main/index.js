@@ -1,5 +1,5 @@
 import { reduce } from 'lodash-es';
-import { add as addBase, mul as mulBase } from 'math';
+import { add as addBase, mul as mulBase } from 'pnpmtestmath';
 
 const add = (arr) => reduce(arr, (prev, curr) => addBase(prev, curr));
 const mul = (arr) => reduce(arr, (prev, curr) => mulBase(prev, curr));

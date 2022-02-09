@@ -1,5 +1,5 @@
 {
-  "name": "main",
+  "name": "pnpmtestmain",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,6 +12,6 @@
   "license": "ISC",
   "dependencies": {
     "lodash-es": "^4.17.21",
-    "math": "workspace:*"
+    "pnpmtestmath": "workspace:*"
   }
 }
