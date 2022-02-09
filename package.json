@@ -8,7 +8,7 @@
     "yarn": "use `pnpm` instead"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "pnpm run test -r"
   },
   "keywords": [],
   "author": "",
